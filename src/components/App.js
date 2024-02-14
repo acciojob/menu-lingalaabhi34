@@ -79,7 +79,7 @@ const App=()=>{
       ]
       const filtereddata= category === "all" ? data : data.filter(dishes=>dishes.category === category)
     return (
-        <div className="App">
+        <div id="main">
             <header>
                 <h1>Our Menu</h1>
                 <button onClick={()=>setcategory("all")} >All</button>
