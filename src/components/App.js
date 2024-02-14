@@ -82,10 +82,10 @@ const App=()=>{
         <div className="App">
             <header>
                 <h1>Our Menu</h1>
-                <button onClick={()=>setcategory("all")}>All</button>
-                <button onClick={()=>setcategory("breakfast")}>Breakfast</button>
-                <button onClick={()=>setcategory("lunch")}>Lunch</button>
-                <button onClick={()=>setcategory("shakes")}>Shakes</button>
+                <button onClick={()=>setcategory("all")} >All</button>
+                <button onClick={()=>setcategory("breakfast")} id="filter-btn-1">Breakfast</button>
+                <button onClick={()=>setcategory("lunch")} id="filter-btn-2">Lunch</button>
+                <button onClick={()=>setcategory("shakes")} id="filter-btn-3">Shakes</button>
             </header>
             <div className="dishes">
             {
