@@ -87,7 +87,7 @@ const App=()=>{
                 <button onClick={()=>setcategory("lunch")} id="filter-btn-2">Lunch</button>
                 <button onClick={()=>setcategory("shakes")} id="filter-btn-3">Shakes</button>
             </header>
-            <div className="dishes">
+            <div  data-test-id={`menu-item-${category}`}>
             {
                filtereddata.map((item,index)=>(
                 <div> 
